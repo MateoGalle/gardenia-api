@@ -1,0 +1,6 @@
+@GardeniaAPI_HostAddress = http://localhost:5110
+
+GET {{GardeniaAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
