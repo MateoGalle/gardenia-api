@@ -1,3 +1,17 @@
 <Solution>
-  <Project Path="GardeniaAPI/GardeniaAPI.csproj" />
+  <Folder Name="/docs/" />
+  <Folder Name="/docs/architecture/">
+    <File Path="docs/architecture/01-product-vision.md" />
+    <File Path="docs/architecture/02-product-backlog.md" />
+    <File Path="docs/architecture/03-domain-model.md" />
+    <File Path="docs/architecture/04-architecture.md" />
+    <File Path="docs/architecture/05-git-workflow.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Gardenia.Api/Gardenia.Api.csproj" />
+    <Project Path="src/Gardenia.Application/Gardenia.Application.csproj" />
+    <Project Path="src/Gardenia.Domain/Gardenia.Domain.csproj" />
+    <Project Path="src/Gardenia.Infrastructure/Gardenia.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
 </Solution>
